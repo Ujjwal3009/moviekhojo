@@ -31,7 +31,9 @@
 }
 
 .btn__md {
-  width: 6rem;
+  width: 10rem;
+  height: 3rem;
+  font-size: 2rem;
 }
 
 .btn__lg {

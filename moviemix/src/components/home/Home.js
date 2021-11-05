@@ -9,12 +9,13 @@ const Home = (props) => {
 
   return (
     <div className="home">
-      <img className="home__logo" src={logo} alt="logo" />
-      <Button
-        name="Next"
-        newClass="btn__md"
-        handleButtonClick={handleHomeNext}
-      ></Button>
+      <div className="nextBtn">
+        <Button
+          name="Next"
+          newClass="btn__md"
+          handleButtonClick={handleHomeNext}
+        ></Button>
+      </div>
     </div>
   );
 };

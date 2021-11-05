@@ -1,15 +1,20 @@
 .home {
   text-align: center;
-  background: blue url("../../images//background/home_bg.jpg") center;
+  background: blue url("../../images//background/home_bg.png") center;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.home__logo {
+/* .home__logo {
   margin-top: 40px;
   width: 60%;
   max-width: 500px;
   height: auto;
+} */
+.nextBtn {
+  position: absolute;
+  top: 70%;
+  left: 44%;
 }
